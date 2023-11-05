@@ -1,0 +1,327 @@
+@media(max-width: 770px) {
+    /* header starts here  */
+    .header-main {
+        display: none;
+    }
+    .slider-main .bi-chevron-left::before, .slider-main .bi-chevron-right::before {
+        color: #a08d8d !important;
+    }
+    .overflow {
+        overflow: hidden;
+    }
+    .mobile-header {
+        display: block;
+        width: 100%;
+        padding: 0.4rem;
+    }
+    .mobile-header .logo {
+        width: 70%;
+    }
+    .mobile-header .menu-icon {
+        width: 30%;
+    }
+    .mobile-header .menu-icon span {
+        display: block;
+        width: 40px;
+        height: 2px;
+        background-color: black;
+        margin-bottom: 0.5rem;
+    }
+    .mobile-header .logo img {
+        width: 100%;
+    }
+    .menu-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile-nav {
+        display: block;
+    } 
+    .mobile-nav {
+        width: 100%;
+        height: 0vh;
+        background-color: white;
+        position: fixed;
+        top: -0%;
+        left: 0;
+        z-index: 10000;
+        /* padding: 2rem 0; */
+        transition: all 0.5s ease;
+        background-color: white;
+        pointer-events: none;
+        overflow: hidden;  
+        opacity: 0;
+
+    }
+    .mobile-nav ul li a {
+        font-size: 1.2rem;
+        color: black;
+        opacity: 0;
+        
+    }
+    .mobile-nav-manu {
+        height: 100vh;
+        padding: 2rem 0;
+        pointer-events: auto;
+        opacity: 1;
+    }
+    .mobile-nav-manu ul li a {
+        transition-delay: 0.2s;
+        opacity: 1;
+    }
+    .mobile-nav ul li {
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid grey;
+      padding: 0.7rem 3rem;
+    }
+    
+    .mobile-closeicon {
+        width: 100%;
+        text-align: right;
+        padding: 0.5rem 3rem;
+        margin: 0.5rem 0;
+    }
+    .mobile-closeicon i {
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    /* header close here  */
+    .fixed-form-main {
+        display: none;
+    }
+    .desk-slider {
+        display: none !important;
+    }
+    .mobile-slider {
+        display: block !important;
+    }
+    .project-overview {
+        padding: 1.5rem 0;
+    }
+    .project-overview-container {
+        flex-direction: column;
+    }
+    .project-overview-left {
+        width: 100%;
+        padding: 0;
+    }
+    .project-overview-left .project-overview-high span strong {
+        font-size: 1.8rem;
+    }
+    .project-overview-left .project-overview-high {
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+    .project-overview-right {
+        width: 100%;
+        margin: 2rem 0;
+        padding: 1rem 0;
+    }
+    .project-overview-right iframe {
+        height: 200px;
+    }
+    .project-overview-right h1 {
+        font-size: 1.8rem;
+    }
+    .project-overview-right h4 {
+        font-size: 1.1rem;
+    }
+    .overview-more ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    .overview-more {
+        padding: 0;
+    }
+    .overview-more ul li {
+        width: 100%;
+    }
+    .amenities-top {
+        flex-direction: column;
+    }
+    .amenities-top-left h3 {
+        font-size: 1.8rem;
+    }
+    .amenities-top .amenities-top-left {
+        width: 100%;
+    }
+    .amenities-box {
+        width: 45%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2.5rem;
+    }
+    .amenities-top .amenities-top-right {
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .amenities-box .amenities-img, .amenities-content {
+       width: 100%;
+       text-align: center;
+    }
+    .amenities-box .amenities-img img {
+        width: 50%;
+        text-align: center;
+    }
+    .amenities-box:nth-child(5), .amenities-box:nth-child(6), .amenities-box:nth-child(7), .amenities-box:nth-child(8) {
+        margin-bottom: 2.5rem;
+    }
+    .amenities-bottom {
+        flex-direction: column;
+    }
+    .amenities-bottombox {
+        width: 100%;
+    }
+    .specifications-main {
+        padding: 3rem 1rem;
+    }
+    .specification-heading-contianer h4 {
+        font-size: 1.8rem;
+    }
+    .specification-container {
+        flex-direction: column;
+    }
+    .specification-left, .specification-right {
+      width: 100%;
+    }
+    .specificationbox {
+        width: 96%;
+    }
+    .specification-heading-contianer p {
+        line-height: 1.7;
+    }
+    .pear-masterplan-container {
+        flex-direction: column;
+    }
+    .pearl-masterplan-left {
+        width: 100%;
+    }
+    .pearl-masterplan-right {
+        width: 100%;
+    }
+    .pearl-masterplan-rightcontent {
+        padding: 2rem 1rem;
+    }
+    .pearl-masterplan-rightcontent h4 {
+        font-size: 1.8rem;
+    }
+    .pearl-masterplan-rightcontent p {
+        width: 100%;
+    }
+    .floorplans-main h4 {
+        font-size: 1.8rem;
+    }
+    .floorplans-main h5 {
+        font-size: 1.5rem;
+    }
+    .floorplans-main-wrapper {
+        flex-direction: column;
+    }
+    .floorplans-towerA {
+        width: 100%;
+    }
+    .location-adv-main h4 {
+        font-size: 1.8rem;
+    }
+    .location-adv-container {
+        flex-direction: column;
+    }
+    .location-adv-left {
+        width: 100%;
+    }
+    .location-adv-right {
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .bank-partners-container {
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+    .bank-patners-left, .bank-partners-right {
+        width: 100%;
+    }
+    .bank-patners-left h5 {
+        font-size: 1.8rem;
+    }
+    .contact-container {
+        flex-direction: column;
+    }
+    .contact-left, .contact-right {
+        width: 100%;
+    }
+    .contact-left ul {
+        flex-direction: column;
+    }
+    .contact-left ul li {
+        margin-bottom: 1rem;
+    }
+    .contact-left ul li a {
+        font-size: 1.1rem;
+    }
+    .contact-left ul li i {
+        font-size: 1rem;
+    }
+    .contact-right form {
+        padding: 1.5rem;
+        margin: 0;
+    }
+    .contact-left h4 {
+        font-size: 1.8rem;
+    }
+    .footer-container {
+      flex-direction: column;
+    }
+    .footer-logo, .footer-head-office, .footer-site-office, .social-media {
+        width: 100%;
+    }
+    .footer-head-office, .footer-site-office, .social-media {
+       padding: 1rem 0;
+    }
+    .whatsapp {
+        right: 4%;
+    }
+    .whatsapp a {
+        font-size: 1rem;
+    }
+    .slick-next {
+        right: 6% !important;
+    }
+    .location-adv-left ul li {
+        font-size: 1.1rem;
+    }
+    .bank-partners-main {
+        overflow: hidden;
+    }
+    .enquire-btn {
+        font-size: 0.9rem;
+        right: -44px;
+    }
+    .thank-you-main h1 {
+        font-size: 1.6rem;
+    }
+    .bank-partners .slick-prev {
+        left: 0;
+    }
+    #headerTable{
+    display: none;
+   }
+   .lead-access-container {
+       width: 90vw;
+       padding: 3rem 1.5rem;
+   }
+   .unit-plans-wrappercomplete {
+       flex-direction: column;
+   }
+   .two-d-unitplans {
+        width: 100%;
+    }
+    .unitplan img {
+        width: 98%;
+    }
+    .three-d-unitplans {
+        width: 100%;
+    }
+    /* closed  */
+}
